@@ -1,0 +1,7 @@
+# docker compose up --build   →  API sur http://localhost:8000/docs
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

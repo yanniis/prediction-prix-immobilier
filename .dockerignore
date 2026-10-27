@@ -1,0 +1,8 @@
+.git
+__pycache__
+*.pyc
+notebooks/
+docs/
+.streamlit/
+app.py
+README.md
