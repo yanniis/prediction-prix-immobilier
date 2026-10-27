@@ -1,0 +1,17 @@
+{
+  "modele_retenu": "XGBoost",
+  "rmse_dollars": 25399.0,
+  "taille_catalogue": 586,
+  "comparaison": [
+    {
+      "modele": "Random Forest",
+      "rmse_dollars": 25764.0,
+      "r2": 0.9176
+    },
+    {
+      "modele": "XGBoost",
+      "rmse_dollars": 25399.0,
+      "r2": 0.92
+    }
+  ]
+}

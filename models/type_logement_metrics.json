@@ -1,0 +1,25 @@
+{
+  "modele_retenu": "Régression logistique",
+  "accuracy_test": 0.9556,
+  "f1_macro_test": 0.9514,
+  "classes_retirees": [
+    "Grand logement d'âge intermédiaire (milieu de gamme)"
+  ],
+  "comparaison_cv": [
+    {
+      "modele": "Régression logistique",
+      "accuracy_cv": 0.9239,
+      "f1_macro_cv": 0.9163
+    },
+    {
+      "modele": "Random Forest",
+      "accuracy_cv": 0.8896,
+      "f1_macro_cv": 0.8774
+    },
+    {
+      "modele": "Gradient Boosting",
+      "accuracy_cv": 0.9127,
+      "f1_macro_cv": 0.9031
+    }
+  ]
+}

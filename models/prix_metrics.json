@@ -1,0 +1,45 @@
+{
+  "rmse_dollars": 19506.0,
+  "mae_dollars": 12148.0,
+  "r2": 0.9528,
+  "mape_pct": 6.87,
+  "n_train": 2341,
+  "n_test": 586,
+  "hyperparametres": {
+    "n_estimators": 500,
+    "max_depth": 3,
+    "learning_rate": 0.1
+  },
+  "comparaison_cv": [
+    {
+      "modele": "Baseline (moyenne)",
+      "r2_cv": -0.0001,
+      "r2_cv_std": 0.0001
+    },
+    {
+      "modele": "Régression linéaire",
+      "r2_cv": 0.8732,
+      "r2_cv_std": 0.0286
+    },
+    {
+      "modele": "Ridge (L2)",
+      "r2_cv": 0.91,
+      "r2_cv_std": 0.0153
+    },
+    {
+      "modele": "Lasso (L1)",
+      "r2_cv": 0.9072,
+      "r2_cv_std": 0.0142
+    },
+    {
+      "modele": "Random Forest",
+      "r2_cv": 0.8828,
+      "r2_cv_std": 0.0193
+    },
+    {
+      "modele": "XGBoost",
+      "r2_cv": 0.9113,
+      "r2_cv_std": 0.0135
+    }
+  ]
+}

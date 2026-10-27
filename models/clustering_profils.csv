@@ -1,0 +1,10 @@
+Cluster,type_logement,nb_logements,surface_totale_pieds2,age_moyen,qualite_moyenne,prix_median
+0,Moyen logement récent (haut de gamme),295,2597.4,8.1,7.2,193800.0
+1,Grand logement ancien (entrée de gamme),210,2914.1,63.2,5.4,145000.0
+2,Petit logement d'âge intermédiaire (entrée de gamme),284,1956.6,47.8,5.0,132500.0
+3,Grand logement récent (haut de gamme),393,3764.4,9.2,8.1,302000.0
+4,Petit logement ancien (milieu de gamme),335,2042.2,67.9,5.4,134800.0
+5,Moyen logement récent (haut de gamme),536,2677.6,9.1,6.7,195250.0
+6,Moyen logement d'âge intermédiaire (milieu de gamme),363,2608.3,47.4,5.8,163000.0
+7,Grand logement d'âge intermédiaire (milieu de gamme),4,3628.0,43.0,6.2,289500.0
+8,Petit logement ancien (entrée de gamme),507,1847.8,57.0,4.8,113000.0
